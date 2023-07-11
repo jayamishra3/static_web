@@ -1,0 +1,15 @@
+/* cars_image css class with 25 vertical height */
+.cars_image {
+    height: 75vh;
+}
+
+/* css class cards_image wuth heigh 25 */
+.cards_image {
+    height: 25vh;
+}
+/* login_class css class with centre alignment for form */
+.login_class {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

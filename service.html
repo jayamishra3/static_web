@@ -1,0 +1,129 @@
+<!-- bootstrap 4.6 login page for employee resgistration -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- add CDN link for bootstrap 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- add CDN link for font awesome 5.3  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <!-- add CDN link for google fonts --> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">
+
+</head>
+<body>
+ <!-- create a dark navbar with login button on right side and name of the website as EMP Stuff on left side using bootstrap -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">EMP Stuff</a>
+        
+    <!-- create a button for navbar which will be on right side of the navbar -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- create a div for navbar which will be on right side of the navbar with links to login and service pages -->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+    <a class="nav-item nav-link active" href="login.html">Login</a>
+    <a class="nav-item nav-link active" href="service.html">Services</a>
+    </div>
+    </div>
+    </nav>
+    <!-- create a jumbotron for the website -->
+    <div class="jumbotron">
+    <div class="container">
+    <h1 class="display-4">EMP Stuff</h1>
+    <p class="lead">This is a website for the employees of the company to get access to the services provided by the company.</p>
+
+    </div>
+    </div>
+        
+    <!-- bootstrap cards fr employee services in emp stuff website -->
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="card">
+    <img src="images/emp1.jpg" class=" cards_image" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Employee Registration</h5>
+    <p class="card-text">Register as an employee to get access to the services provided by the company.</p>
+    <a href="login.html" class="btn btn-primary">Register</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="card">
+    <img src="images/emp2.png" class=" cards_image" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Employee Login</h5>
+    <p class="card-text">Login as an employee to get access to the services provided by the company.</p>
+    <a href="login.htmp" class="btn btn-primary">Login</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="card">
+    <img src="images/emp3.jpg" class=" cards_image" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Employee Services</h5>
+    <p class="card-text">Get access to the services provided by the company.</p>
+    <a href="service.html" class="btn btn-primary">Services</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- create a footer for the website -->
+    <footer class="footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+    <h4 class="text">Contact Us</h4>
+    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+    <ul class="list-unstyled">
+    <li><i class="fa fa-home mr-2"></i> EMP Stuff</li>
+    <li><i class="fa fa-envelope mr-2"></i>
+
+    <a href="mailto:  emp@emp.com " class="text-white">
+    </a>
+    </li>
+    <li><i class="fa fa-phone mr-2"></i> +91 9876543210</li>
+    <li><i class="fa fa-print mr-2"></i> +91 9876543210</li>
+    </ul>
+    </div>
+    <div class="col-md-4">
+    <h4 class="text">Our Services</h4>
+    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+    <ul class="list-unstyled">
+    <li><a href="service.html" class="text-white">Employee Services</a></li>
+    <li><a href="service.html" class="text-white">Customer Services</a></li>
+    <li><a href="service.html" class="text-white">Manager Services</a></li>
+    <li><a href="service.html" class="text-white">Admin Services</a></li>
+    </ul>
+    </div>
+    <div class="col-md-4">
+    <h4 class="text">Follow Us</h4>
+    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+    <div class="social">
+    <a href="#" class="mr-2"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+        
+    </div>
+    </div>
+    </div>
+    </div>
+</footer>
+
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</html>
